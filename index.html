@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jann Beauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="nav" id="nav">
+    <div class="navin">
+      <a class="brand" href="#inicio">JANN <span>BEAUTY</span></a>
+      <button class="menu">☰</button>
+      <nav class="links">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#precios">Precios</a>
+        <a href="#redes">Redes</a>
+        <a href="#contacto">Citas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div>
+        <div class="eyebrow">Jann • Beauty </div>
+        <h1>Tu cabello,<br><em>tu mejor versión.</em></h1>
+        <p>Alaciados, tratamientos y cuidado capilar personalizados para que tu cabello luzca espectacular, suave y lleno de vida.</p>
+        <a class="btn" href="#contacto">RESERVAR CITA ✦</a>
+      </div>
+      <div class="hero-art">
+        <div class="photo"><img src="images/logo.png" alt="Jann Beauty - Ponte bonita"></div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <div class="title">
+          <small>Mi trabajo</small>
+          <h2>Resultados que enamoran</h2>
+          <p>Una selección de estilos y tratamientos realizados con dedicación.</p>
+        </div>
+        <div class="carousel">
+          <div class="slides" id="slides">
+            <div class="slide">
+              <img src="images/alaciado.jpg" alt="Alisado premium">
+              <div class="caption">
+                <b>Alisado premium</b>
+                <span>Brillo • Suavidad • Movimiento</span>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/alaciado2.jpg" alt="Tratamiento de keratina">
+              <div class="caption">
+                <b>Alisado progresivo</b>
+                <span>Cabello disciplinado y luminoso</span>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/corte.jpg" alt="Botox capilar">
+              <div class="caption">
+                <b>Corte Bordado mas tratamiento de Botox capilar</b>
+                <span>Hidratación y apariencia renovada</span>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/alasiadoprogre.jpg" alt="Cuidado personalizado">
+              <div class="caption">
+                <b>Cuidado personalizado</b>
+                <span>Tu cabello, tratado según sus necesidades</span>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/tratamiento.png" alt="Laminado de Cejas">
+              <div class="caption">
+                <b>Laminado de Cejas</b>
+                <span>Luce unas cejas definidas, peinadas y con un acabado impecable.</span>
+              </div>
+            </div>
+             <div class="slide">
+              <img src="images/recorte.jpeg" alt="Recorte de Puntas">
+              <div class="caption">
+                <b>Recorte de Puntas</b>
+                <span>Luce unas puntas definidas, peinadas y con un acabado impecable.</span>
+              </div>
+            </div>
+          </div>
+          <button class="arrow prev" onclick="move(-1)">‹</button>
+          <button class="arrow next" onclick="move(1)">›</button>
+        </div>
+        <div class="dots" id="dots"></div>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <div class="title">
+          <small>Lo que hago</small>
+          <h2>Servicios</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">✦</div>
+            <h3>Alisado Permanente</h3>
+            <p>Consigue un cabello liso, sedoso y fácil de peinar. Luce una melena impecable, con un acabado elegante que te hará sentir hermosa todos los días.</p>
+          </article>
+          <article class="card">
+            <div class="icon">♡</div>
+            <h3>Alisado Progresivo</h3>
+            <p>Despídete del frizz y disfruta de un cabello más suave, manejable y lleno de brillo. Ideal para lucir una melena disciplinada, con movimiento y una apariencia espectacular.</p>
+          </article>
+          <article class="card">
+            <div class="icon">❋</div>
+            <h3>Botox de Hidratación</h3>
+            <p>Dale a tu cabello el cuidado que merece. Este tratamiento ayuda a mejorar su suavidad, hidratación y brillo, dejando una apariencia más saludable, sedosa y renovada.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚘</div>
+            <h3>Botox Curly</h3>
+            <p>Consiente tus rizos con un tratamiento enfocado en la hidratación y el cuidado capilar. Ayuda a mejorar la suavidad, controlar el frizz y realzar la apariencia natural de tus rizos.</p>
+          </article>
+          <article class="card">
+            <div class="icon">𓆩♥︎𓆪</div>
+            <h3>Laminado de Cejas</h3>
+            <p>Realza tu mirada con cejas definidas, peinadas y con un acabado impecable. Ideal para conseguir un efecto de mayor orden y volumen, resaltando la belleza natural de tu rostro.</p>
+          </article>
+          <article class="card">
+            <div class="icon">☘︎</div>
+            <h3>Corte Bordado con tijera y con máquina original Split-Ender PRO 2</h3>
+            <p>Dale nueva vida a tu melena con un corte diseñado para ayudar a eliminar las puntas abiertas sin sacrificar innecesariamente el largo. Consigue un cabello con una apariencia más uniforme, cuidada y saludable.</p>
+          </article>
+          <article class="card">
+            <div class="icon">✶</div>
+            <h3>Extensiones de Pedrería</h3>
+            <p>Añade un toque de brillo y personalidad a tu cabello con delicados detalles de pedrería. Perfectas para darle un acabado especial a tu look y destacar en cualquier ocasión.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="precios">
+      <div class="wrap">
+        <div class="title">
+          <small>Inversión</small>
+          <h2>Precios</h2>
+          <p>Precios de referencia. Pueden variar según largo y cantidad de cabello.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Alisado</h3>
+            <p>Precio de referencia según el volumen de cabello</p>
+            <div class="price">$700 <span>MXN</span></div>
+          </article>
+          <article class="card">
+            <h3>Laminado de Ceja</h3>
+            <p>Tratamiento completo</p>
+            <div class="price">$80 <span>MXN</span></div>
+          </article>
+          <article class="card">
+            <h3>El Botox de Hidratación y Curly</h3>
+            <p>Hidratación intensiva</p>
+            <div class="price">$500 <span>MXN</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="redes">
+      <div class="wrap">
+        <div class="title">
+          <small>Conecta conmigo</small>
+          <h2>Mis redes</h2>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com/jannetmvo?dlrf=cm5kOWc1dWw0eHdz">
+            <strong>Instagram</strong>
+            <span>@jannetmvo</span>
+          </a>
+          <a href="https://www.tiktok.com/@jannvenegas?_r=1&_t=ZS-9Ae9Sc78l1U">
+            <strong>TikTok</strong>
+            <span>@jannvenegas</span>
+          </a>
+          <a href="https://www.facebook.com/share/1DfwarHxC3/">
+            <strong>Facebook</strong>
+            <span>Jann Venegas</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="wrap">
+        <div class="eyebrow">Agenda tu cita</div>
+        <h2>¿Lista para consentir tu cabello?</h2>
+        <p>Escríbeme para consultar disponibilidad y elegir el tratamiento ideal para ti.</p>
+        <a class="btn" href="https://wa.me/52531000593?text=Hola%20Jann%2C%20quiero%20agendar%20una%20cita">WHATSAPP · RESERVAR</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">© 2026 Jann Beauty · Hecho con amor y estilo ✦</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
